@@ -7,6 +7,7 @@ The environments setting and tools are below
 1 - Install MS-SQL SERVER EXPRESS 2005 or newly released versions
 2 - Generate the database for MS-SQL SERVER by SQL script as below 
 
+```
 USE [bookshop]
 GO
 /****** Object:  Table [dbo].[books]    Script Date: 10/14/2019 9:52:26 AM ******/
@@ -20,6 +21,7 @@ CREATE TABLE [dbo].[books](
 	[bookprice] [int] NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
+```
 
 3- Enable SQL Server Authentication in MS-SQL Server with user "sa" and password ="your password"    
 3- Install go 1.xx 

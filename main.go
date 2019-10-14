@@ -24,7 +24,7 @@ var books []Book
 var str = ""
 
 //Init Connection String
-var comn = "server=localhost\\SQLEXPRESS;user id=sa;password=k7807907;port=1433;database=bookshop;"
+var comn = "server=localhost\\SQLEXPRESS;user id=sa;password=yourpassword;port=1433;database=bookshop;"
 
 //Get Books
 func getBooks(w http.ResponseWriter, r *http.Request) {

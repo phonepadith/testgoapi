@@ -136,6 +136,7 @@ func updateBook(w http.ResponseWriter, r *http.Request) {
 	defer updatestm.Close()
 }
 
+//Delete Book
 func deleteBook(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	db, err := sqlx.Open("mssql", comn)
@@ -170,6 +171,7 @@ func main() {
 
 }
 
+//Error Checking
 func e(err error) {
 	if err != nil {
 		log.Fatal(err)

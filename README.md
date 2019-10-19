@@ -25,5 +25,7 @@ GO
 ```
 
 3- Enable SQL Server Authentication in MS-SQL Server with user "sa" and password ="your password"    
+
 4- Install go 1.xx 
+
 5- Install Postman
